@@ -1,0 +1,71 @@
+.stockContainer {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.stockTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.stockTable th,
+.stockTable td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.stockTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.stockTable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.cancelBtn {
+  background-color: #dc3545;
+}
+
+.cancelBtn:hover {
+  background-color: #c82333;
+}
